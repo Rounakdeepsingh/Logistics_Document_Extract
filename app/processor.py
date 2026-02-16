@@ -85,4 +85,4 @@ if __name__ == "__main__":
             pd.DataFrame(results).to_excel(os.path.join(OUTPUT_DIR, "extraction_results.xlsx"), index=False)
 
     pd.DataFrame(results).to_excel(os.path.join(OUTPUT_DIR, "extraction_results.xlsx"), index=False)
-    logger.info("✅ ALL TASKS FINISHED.")
+    logger.info("✅ ALL TASKS FINISHED!.")
