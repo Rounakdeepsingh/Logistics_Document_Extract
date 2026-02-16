@@ -1,1 +1,23 @@
-/.idea
+# Environments
+venv/
+env/
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary images created during OCR
+temp_*.jpg
+temp_*.png
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+~$*
